@@ -23,5 +23,6 @@ public class UIInstaller : MonoInstaller
         Container.Bind<TextMeshProUGUI>().FromInstance(boughtPriceLabel).When(
             context => context.MemberName.Equals("boughtPriceLabel")
         );
+        Container.Bind<KeyController>().FromNewComponentOnNewGameObject().AsSingle().NonLazy();
     }
 }
