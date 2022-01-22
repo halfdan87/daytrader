@@ -20,6 +20,8 @@ public class MainInstaller : MonoInstaller
         {
             Container.Bind<BuySellAlgorithm>().To<MaxOutBuySellAlgorithm>().AsSingle();
         }
+
+        Container.BindFactory<UnityEngine.Object, float, PriceMarker, PriceMarker.Factory>().FromFactory<PrefabFactory<float, PriceMarker>>();
     }
 }
 

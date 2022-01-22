@@ -77,5 +77,9 @@ public class GameManager : MonoBehaviour
         public float multiplier = 1f;
         public int maxJump = 1, minJump = -1;
         public float followSpeed = 0.5F;
+        
+        public Color lossColor;
+        public Color zeroColor;
+        public Color profitColor;
     }
 }

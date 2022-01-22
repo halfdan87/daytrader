@@ -12,7 +12,7 @@ public class RandomFluctuations : MonoBehaviour
         var pos = transform.position;
 
         pos.y = _gameManager.price;
-        
+
         transform.position = pos;
     }
 }

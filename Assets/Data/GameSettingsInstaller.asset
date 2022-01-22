@@ -18,3 +18,7 @@ MonoBehaviour:
     multiplier: 1
     maxJump: 10
     minJump: -10
+    followSpeed: 0.5
+    lossColor: {r: 1, g: 0, b: 0, a: 0}
+    zeroColor: {r: 1, g: 1, b: 1, a: 0}
+    profitColor: {r: 0, g: 1, b: 0.038576365, a: 0}
